@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat Home</title>
+</head>
+<body>
+    <h1>Welcome to Chat</h1>
+    <form action="{% url 'room' room_name='lobby' %}">
+        <input type="text" name="room_name" placeholder="Enter room name" required>
+        <button type="submit">Join Room</button>
+    </form>
+</body>
+</html>

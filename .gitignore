@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Django
+db.sqlite3
+*.sqlite3
+
+# Environment
+.env
+venv/
+env/
+ENV/
+.venv/
+*.egg-info/
+pip-log.txt
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Migrations (optional, if you don't want to track them)
+# chatapp/migrations/
