@@ -76,8 +76,12 @@ ASGI_APPLICATION = "chatproject.asgi.application"
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'Add_your_DBname',
+        'USER': 'Add_your_DBusername',
+        'PASSWORD': 'Add_your_DBpass',
+        'HOST': 'localhost',
+        'PORT': 'Add_your_DBportno',
     }
 }
 
